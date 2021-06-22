@@ -1,6 +1,18 @@
 
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .nTextColor{
     font-family: 'Josefin Sans', sans-serif;
     color: gold;
+}
+
+.Half-Width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.Half-Width img{
+    width: 100%;
 }
