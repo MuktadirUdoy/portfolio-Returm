@@ -14,5 +14,55 @@ body{
     padding-left: 2%;
 }
 .Half-Width img{
-    width: 100%;
+    width: 90%;
+}
+.Top-Banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 400px;
+}
+.LinkButton{
+    text-decoration: none;
+    background-image: linear-gradient(Lightyellow,gold);
+    background-color:gold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Second-part{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Single-Experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.EX-Area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#Full-Stack{
+    border-left: 7px solid;
+    border-left-color: goldenrod;
+}
+
+#Singleexp{
+    border-left: 7px solid;
+    border-image: linear-gradient(white,goldenrod);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
 }
